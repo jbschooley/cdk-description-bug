@@ -12,6 +12,6 @@ export class CdkDescriptionBugStack extends cdk.Stack {
       templateFile: 'lib/test-s3-stack.yaml'
     })
 
-    this.templateOptions.description = 'Updated description'
+    // this.templateOptions.description = 'Updated description'
   }
 }
